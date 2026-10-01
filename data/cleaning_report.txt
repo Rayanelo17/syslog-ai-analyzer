@@ -1,0 +1,18 @@
+Rapport de nettoyage - dataset syslog
+==================================================
+
+Lignes en entrée : 2000
+Aucune valeur manquante détectée.
+Doublons exacts (raw_log) supprimés : 0
+Messages identiques mais contextes différents (conservés) : 457
+Messages avec espaces normalisés : 83
+Toutes les valeurs de severity sont valides (0-7).
+Tous les timestamps sont valides.
+ATTENTION : 3 paires (facility, mnemonic) ont des labels incohérents (severity ou category variable) -- à vérifier manuellement :
+                        severity  category
+facility  mnemonic                        
+LINK      UPDOWN               2         1
+SEC       IPACCESSLOGP         2         1
+SEC_LOGIN LOGIN_FAILED         2         1
+Messages trop courts (< 10 caractères), marqués via la colonne 'is_suspect' : 0
+Lignes en sortie : 2000

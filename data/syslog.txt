@@ -1,0 +1,137 @@
+Jun 27 13:27:14.041 UTC: %BGP-4-VPN_NH_IF: Nexthop :: may not be reachable from neigbor 198.18.125.137 - not a loopback
+Jun 27 14:03:01.597 UTC: %BGP-4-VPN_NH_IF: Nexthop :: may not be reachable from neigbor 198.18.125.137 - not a loopback
+Jun 27 15:16:19.005 UTC: %BGP-4-VPN_NH_IF: Nexthop :: may not be reachable from neigbor 198.19.35.97 - not a loopback
+Jun 27 16:44:30.085 UTC: %BGP-4-VPN_NH_IF: Nexthop :: may not be reachable from neigbor 198.18.18.97 - not a loopback
+Jun 27 16:58:55.510 UTC: %BGP-4-VPN_NH_IF: Nexthop :: may not be reachable from neigbor 198.19.35.97 - not a loopback
+Jun 27 16:59:31.340 UTC: %BGP-4-VPN_NH_IF: Nexthop :: may not be reachable from neigbor 198.18.57.121 - not a loopback
+Jun 27 19:22:47.093 UTC: %BGP-4-VPN_NH_IF: Nexthop :: may not be reachable from neigbor 198.19.35.97 - not a loopback
+Jun 27 19:35:29.401 UTC: %BFDFSM-6-BFD_SESS_DOWN: BFD-SYSLOG: BFD session ld:17 handle:8,is going Down Reason: DETECT TIMER EXPIRED
+Jun 27 19:35:29.402 UTC: %BGP-5-NBR_RESET: Neighbor 2A00:2180:4003::108 reset (BFD adjacency down)
+Jun 27 19:35:29.410 UTC: %BGP-5-ADJCHANGE: neighbor 2A00:2180:4003::108 vpn vrf MSGTST Down BFD adjacency down
+Jun 27 19:35:29.410 UTC: %BGP_SESSION-5-ADJCHANGE: neighbor 2A00:2180:4003::108 IPv6 Unicast vpn vrf MSGTST topology base removed from session  BFD adjacency down
+Jun 27 19:35:29.410 UTC: %BFD-6-BFD_SESS_DESTROYED: BFD-SYSLOG: bfd_session_destroyed,  ld:17 neigh proc:BGP, idb:GigabitEthernet0/0/1.104 handle:8 active
+Jun 27 19:35:37.153 UTC: %BFD-6-BFD_SESS_CREATED: BFD-SYSLOG: bfd_session_created, neigh 2A00:2180:4003::108 proc:BGP, idb:GigabitEthernet0/0/1.104 handle:8 act
+Jun 27 19:35:37.153 UTC: %BGP-5-ADJCHANGE: neighbor 2A00:2180:4003::108 vpn vrf MSGTST Up
+Jun 27 19:35:37.166 UTC: %BFDFSM-6-BFD_SESS_UP: BFD-SYSLOG: BFD session ld:17 handle:8 is going UP
+Jun 27 19:45:51.393 UTC: %BFDFSM-6-BFD_SESS_DOWN: BFD-SYSLOG: BFD session ld:4163 handle:5,is going Down Reason: DETECT TIMER EXPIRED
+Jun 27 19:45:51.395 UTC: %BGP-5-NBR_RESET: Neighbor 62.5.101.221 reset (BFD adjacency down)
+Jun 27 19:45:51.406 UTC: %BGP-5-ADJCHANGE: neighbor 62.5.101.221 vpn vrf MSGOPS Down BFD adjacency down
+Jun 27 19:45:51.406 UTC: %BGP_SESSION-5-ADJCHANGE: neighbor 62.5.101.221 IPv4 Unicast vpn vrf MSGOPS topology base removed from session  BFD adjacency down
+Jun 27 19:45:51.406 UTC: %BFD-6-BFD_SESS_DESTROYED: BFD-SYSLOG: bfd_session_destroyed,  ld:4163 neigh proc:BGP, idb:GigabitEthernet0/0/1.105 handle:5 active
+Jun 27 19:46:02.754 UTC: %BFD-6-BFD_SESS_CREATED: BFD-SYSLOG: bfd_session_created, neigh 62.5.101.221 proc:BGP, idb:GigabitEthernet0/0/1.105 handle:5 act
+Jun 27 19:46:02.755 UTC: %BGP-5-ADJCHANGE: neighbor 62.5.101.221 vpn vrf MSGOPS Up
+Jun 27 19:46:02.770 UTC: %BFDFSM-6-BFD_SESS_UP: BFD-SYSLOG: BFD session ld:4163 handle:5 is going UP
+Jun 28 00:09:22.933 UTC: %BFDFSM-6-BFD_SESS_DOWN: BFD-SYSLOG: BFD session ld:4162 handle:3,is going Down Reason: DETECT TIMER EXPIRED
+Jun 28 00:09:22.935 UTC: %BGP-5-NBR_RESET: Neighbor 62.5.101.221 reset (BFD adjacency down)
+Jun 28 00:09:22.946 UTC: %BGP-5-ADJCHANGE: neighbor 62.5.101.221 vpn vrf MSGTST Down BFD adjacency down
+Jun 28 00:09:22.947 UTC: %BGP_SESSION-5-ADJCHANGE: neighbor 62.5.101.221 IPv4 Unicast vpn vrf MSGTST topology base removed from session  BFD adjacency down
+Jun 28 00:09:22.947 UTC: %BFD-6-BFD_SESS_DESTROYED: BFD-SYSLOG: bfd_session_destroyed,  ld:4162 neigh proc:BGP, idb:GigabitEthernet0/0/1.104 handle:3 active
+Jun 28 00:09:22.977 UTC: %BFDFSM-6-BFD_SESS_UP: BFD-SYSLOG: BFD session ld:4162 handle:3 is going UP
+Jun 28 00:09:23.854 UTC: %BGP-5-NBR_RESET: Neighbor 62.5.101.221 reset (BFD adjacency down)
+Jun 28 00:09:23.866 UTC: %BGP-5-ADJCHANGE: neighbor 62.5.101.221 vpn vrf MSGOPS Down BFD adjacency down
+Jun 28 00:09:23.867 UTC: %BGP_SESSION-5-ADJCHANGE: neighbor 62.5.101.221 IPv4 Unicast vpn vrf MSGOPS topology base removed from session  BFD adjacency down
+Jun 28 00:09:24.187 UTC: %BGP-5-NBR_RESET: Neighbor 62.5.101.221 reset (BFD adjacency down)
+Jun 28 00:09:24.197 UTC: %BGP-5-ADJCHANGE: neighbor 62.5.101.221 vpn vrf VOICEOPS Down BFD adjacency down
+Jun 28 00:09:24.197 UTC: %BGP_SESSION-5-ADJCHANGE: neighbor 62.5.101.221 IPv4 Unicast vpn vrf VOICEOPS topology base removed from session  BFD adjacency down
+Jun 28 00:09:29.655 UTC: %BFD-6-BFD_SESS_CREATED: BFD-SYSLOG: bfd_session_created, neigh 62.5.101.221 proc:BGP, idb:GigabitEthernet0/0/1.108 handle:3 act
+Jun 28 00:09:29.655 UTC: %BGP-5-ADJCHANGE: neighbor 62.5.101.221 vpn vrf VOICEOPS Up
+Jun 28 00:09:29.674 UTC: %BFDFSM-6-BFD_SESS_UP: BFD-SYSLOG: BFD session ld:4164 handle:3 is going UP
+Jun 28 00:09:29.685 UTC: %BGP-4-VPN_NH_IF: Nexthop :: may not be reachable from neigbor 198.18.57.121 - not a loopback
+Jun 28 00:09:30.315 UTC: %BGP-5-ADJCHANGE: neighbor 62.5.101.221 vpn vrf MSGOPS Up
+Jun 28 00:09:30.702 UTC: %BGP-5-ADJCHANGE: neighbor 62.5.101.221 vpn vrf MSGTST Up
+Jun 28 02:02:24.932 UTC: %BGP-4-VPN_NH_IF: Nexthop :: may not be reachable from neigbor 198.19.35.97 - not a loopback
+Jun 28 04:25:06.253 UTC: %BFDFSM-6-BFD_SESS_DOWN: BFD-SYSLOG: BFD session ld:4154 handle:1,is going Down Reason: DETECT TIMER EXPIRED
+Jun 28 04:25:06.254 UTC: %BGP-5-NBR_RESET: Neighbor 62.5.101.221 reset (BFD adjacency down)
+Jun 28 04:25:06.262 UTC: %BGP-5-ADJCHANGE: neighbor 62.5.101.221 vpn vrf SURTST Down BFD adjacency down
+Jun 28 04:25:06.263 UTC: %BGP_SESSION-5-ADJCHANGE: neighbor 62.5.101.221 IPv4 Unicast vpn vrf SURTST topology base removed from session  BFD adjacency down
+Jun 28 04:25:06.263 UTC: %BFD-6-BFD_SESS_DESTROYED: BFD-SYSLOG: bfd_session_destroyed,  ld:4154 neigh proc:BGP, idb:GigabitEthernet0/0/1.106 handle:1 active
+Jun 28 04:25:06.296 UTC: %BFDFSM-6-BFD_SESS_UP: BFD-SYSLOG: BFD session ld:4154 handle:1 is going UP
+Jun 28 04:25:06.725 UTC: %BGP-5-NBR_RESET: Neighbor 62.5.101.221 reset (BFD adjacency down)
+Jun 28 04:25:06.736 UTC: %BGP-5-ADJCHANGE: neighbor 62.5.101.221 vpn vrf MSGTST Down BFD adjacency down
+Jun 28 04:25:06.736 UTC: %BGP_SESSION-5-ADJCHANGE: neighbor 62.5.101.221 IPv4 Unicast vpn vrf MSGTST topology base removed from session  BFD adjacency down
+Jun 28 04:25:07.768 UTC: %BGP-5-NBR_RESET: Neighbor 62.5.101.221 reset (BFD adjacency down)
+Jun 28 04:25:07.777 UTC: %BGP-5-ADJCHANGE: neighbor 62.5.101.221 vpn vrf VOICETST Down BFD adjacency down
+Jun 28 04:25:07.777 UTC: %BGP_SESSION-5-ADJCHANGE: neighbor 62.5.101.221 IPv4 Unicast vpn vrf VOICETST topology base removed from session  BFD adjacency down
+Jun 28 04:25:09.973 UTC: %BGP-5-NBR_RESET: Neighbor 2A00:2180:4003::108 reset (BFD adjacency down)
+Jun 28 04:25:09.981 UTC: %BGP-5-ADJCHANGE: neighbor 2A00:2180:4003::108 vpn vrf MSGTST Down BFD adjacency down
+Jun 28 04:25:09.981 UTC: %BGP_SESSION-5-ADJCHANGE: neighbor 2A00:2180:4003::108 IPv6 Unicast vpn vrf MSGTST topology base removed from session  BFD adjacency down
+Jun 28 04:25:14.708 UTC: %BFD-6-BFD_SESS_CREATED: BFD-SYSLOG: bfd_session_created, neigh 62.5.101.221 proc:BGP, idb:GigabitEthernet0/0/1.106 handle:1 act
+Jun 28 04:25:14.708 UTC: %BGP-5-ADJCHANGE: neighbor 62.5.101.221 vpn vrf SURTST Up
+Jun 28 04:25:14.715 UTC: %BFDFSM-6-BFD_SESS_UP: BFD-SYSLOG: BFD session ld:4167 handle:1 is going UP
+Jun 28 04:25:14.748 UTC: %BGP-4-VPN_NH_IF: Nexthop :: may not be reachable from neigbor 198.19.18.97 - not a loopback
+Jun 28 04:25:15.963 UTC: %BGP-5-ADJCHANGE: neighbor 2A00:2180:4003::108 vpn vrf MSGTST Up
+Jun 28 04:25:16.966 UTC: %BGP-5-ADJCHANGE: neighbor 62.5.101.221 vpn vrf VOICETST Up
+Jun 28 04:25:20.839 UTC: %BFD-6-BFD_SESS_CREATED: BFD-SYSLOG: bfd_session_created, neigh 62.5.101.221 proc:BGP, idb:GigabitEthernet0/0/1.104 handle:7 act
+Jun 28 04:25:20.840 UTC: %BGP-5-ADJCHANGE: neighbor 62.5.101.221 vpn vrf MSGTST Up
+Jun 28 13:36:37.174 UTC: %BFDFSM-6-BFD_SESS_DOWN: BFD-SYSLOG: BFD session ld:4164 handle:3,is going Down Reason: DETECT TIMER EXPIRED
+Jun 28 13:36:37.175 UTC: %BGP-5-NBR_RESET: Neighbor 62.5.101.221 reset (BFD adjacency down)
+Jun 28 13:36:37.185 UTC: %BGP-5-ADJCHANGE: neighbor 62.5.101.221 vpn vrf VOICEOPS Down BFD adjacency down
+Jun 28 13:36:37.185 UTC: %BGP_SESSION-5-ADJCHANGE: neighbor 62.5.101.221 IPv4 Unicast vpn vrf VOICEOPS topology base removed from session  BFD adjacency down
+Jun 28 13:36:37.186 UTC: %BFD-6-BFD_SESS_DESTROYED: BFD-SYSLOG: bfd_session_destroyed,  ld:4164 neigh proc:BGP, idb:GigabitEthernet0/0/1.108 handle:3 active
+Jun 28 13:36:37.217 UTC: %BFDFSM-6-BFD_SESS_UP: BFD-SYSLOG: BFD session ld:4164 handle:3 is going UP
+Jun 28 13:36:37.574 UTC: %BGP-5-NBR_RESET: Neighbor 62.5.101.221 reset (BFD adjacency down)
+Jun 28 13:36:37.582 UTC: %BGP-5-ADJCHANGE: neighbor 62.5.101.221 vpn vrf VOICETST Down BFD adjacency down
+Jun 28 13:36:37.582 UTC: %BGP_SESSION-5-ADJCHANGE: neighbor 62.5.101.221 IPv4 Unicast vpn vrf VOICETST topology base removed from session  BFD adjacency down
+Jun 28 13:36:39.338 UTC: %BGP-5-NBR_RESET: Neighbor 2A00:2180:4003::108 reset (BFD adjacency down)
+Jun 28 13:36:39.346 UTC: %BGP-5-ADJCHANGE: neighbor 2A00:2180:4003::108 vpn vrf MSGTST Down BFD adjacency down
+Jun 28 13:36:39.346 UTC: %BGP_SESSION-5-ADJCHANGE: neighbor 2A00:2180:4003::108 IPv6 Unicast vpn vrf MSGTST topology base removed from session  BFD adjacency down
+Jun 28 13:36:40.445 UTC: %BGP-5-NBR_RESET: Neighbor 62.5.101.221 reset (BFD adjacency down)
+Jun 28 13:36:40.453 UTC: %BGP-5-ADJCHANGE: neighbor 62.5.101.221 vpn vrf SURTST Down BFD adjacency down
+Jun 28 13:36:40.453 UTC: %BGP_SESSION-5-ADJCHANGE: neighbor 62.5.101.221 IPv4 Unicast vpn vrf SURTST topology base removed from session  BFD adjacency down
+Jun 28 13:36:41.119 UTC: %BGP-5-NBR_RESET: Neighbor 62.5.101.221 reset (BFD adjacency down)
+Jun 28 13:36:41.129 UTC: %BGP-5-ADJCHANGE: neighbor 62.5.101.221 vpn vrf SUROPS Down BFD adjacency down
+Jun 28 13:36:41.129 UTC: %BGP_SESSION-5-ADJCHANGE: neighbor 62.5.101.221 IPv4 Unicast vpn vrf SUROPS topology base removed from session  BFD adjacency down
+Jun 28 13:36:45.289 UTC: %BFDFSM-6-BFD_SESS_UP: BFD-SYSLOG: BFD session ld:4168 handle:5 is going UP
+Jun 28 13:36:45.289 UTC: %BFD-6-BFD_SESS_DESTROYED: BFD-SYSLOG: bfd_session_destroyed,  ld:4168 neigh proc:CEF, idb:GigabitEthernet0/0/1.109 handle:5 active
+Jun 28 13:36:46.922 UTC: %BFD-6-BFD_SESS_CREATED: BFD-SYSLOG: bfd_session_created, neigh 62.5.101.221 proc:BGP, idb:GigabitEthernet0/0/1.108 handle:2 act
+Jun 28 13:36:46.922 UTC: %BGP-5-ADJCHANGE: neighbor 62.5.101.221 vpn vrf VOICEOPS Up
+Jun 28 13:36:46.953 UTC: %BGP-5-ADJCHANGE: neighbor 2A00:2180:4003::108 vpn vrf MSGTST Up
+Jun 28 13:36:47.330 UTC: %BGP-5-ADJCHANGE: neighbor 62.5.101.221 vpn vrf VOICETST Up
+Jun 28 13:36:47.345 UTC: %BGP-4-VPN_NH_IF: Nexthop :: may not be reachable from neigbor 198.19.57.121 - not a loopback
+Jun 28 13:36:48.443 UTC: %BGP-5-ADJCHANGE: neighbor 62.5.101.221 vpn vrf SUROPS Up
+Jun 28 13:36:48.988 UTC: %BGP-5-ADJCHANGE: neighbor 62.5.101.221 vpn vrf SURTST Up
+May 4 14:34:11.974: %IFDAMP-5-UPDOWN: interface GigabitEthernet0/23 update CLNS Routing state to UP, interface is not suppressed
+May 4 14:34:11.978: %IFDAMP-5-UPDOWN: interface GigabitEthernet0/23 update IP Routing state to UP, interface is not suppressed
+May 4 14:34:12.974: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/23, changed state to up
+May 4 14:35:13.047: %CLNS-5-ADJCHANGE: ISIS: Adjacency to ME-BLR-CAS-BSK-02 (GigabitEthernet0/23) Up, new adjacency
+Jun 6 13:58:21.707: %CLNS-5-ADJCHANGE: ISIS: Adjacency to ME-CAS-BSK-BLR-02 (GigabitEthernet0/23) Down, bfd neighbor down
+Jun 6 13:58:21.723: %CLNS-5-ADJCHANGE: ISIS: Adjacency to ME-CAS-BSK-BLR-02 (GigabitEthernet0/23) Up, new adjacency
+Jun 20 09:53:29.864: %CLNS-5-ADJCHANGE: ISIS: Adjacency to ME-CAS-BSK-BLR-02 (GigabitEthernet0/23) Down, bfd neighbor down
+Jun 20 09:53:29.880: %CLNS-5-ADJCHANGE: ISIS: Adjacency to ME-CAS-BSK-BLR-02 (GigabitEthernet0/23) Up, new adjacency
+Jun 20 09:53:48.809: %CLNS-5-ADJCHANGE: ISIS: Adjacency to ME-CAS-BSK-BLR-02 (GigabitEthernet0/23) Down, bfd neighbor down
+Jun 20 09:53:49.641: %LINK-3-UPDOWN: Interface GigabitEthernet0/23, changed state to down
+Jun 20 09:53:49.645: %IFDAMP-5-UPDOWN: interface GigabitEthernet0/23 update CLNS Routing state to DOWN, interface is not suppressed
+Jun 20 09:53:49.649: %IFDAMP-5-UPDOWN: interface GigabitEthernet0/23 update IP Routing state to DOWN, interface is not suppressed
+Jun 20 09:53:50.637: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/23, changed state to down
+Jun 20 09:53:52.125: %LINK-3-UPDOWN: Interface GigabitEthernet0/23, changed state to up
+Jun 20 09:53:52.125: %IFDAMP-5-UPDOWN: interface GigabitEthernet0/23 update CLNS Routing state to UP, interface is not suppressed
+Jun 20 09:53:52.129: %IFDAMP-5-UPDOWN: interface GigabitEthernet0/23 update IP Routing state to UP, interface is not suppressed
+Jun 20 09:53:53.125: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/23, changed state to up
+Jun 20 09:54:02.361: %LINK-3-UPDOWN: Interface GigabitEthernet0/23, changed state to down
+Jun 20 09:54:02.361: %IFDAMP-5-UPDOWN: interface GigabitEthernet0/23 update CLNS Routing state to DOWN, interface is not suppressed
+Jun 20 09:54:02.365: %IFDAMP-5-UPDOWN: interface GigabitEthernet0/23 update IP Routing state to DOWN, interface is not suppressed
+Jun 20 09:54:03.357: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/23, changed state to down
+Jun 20 09:54:04.765: %LINK-3-UPDOWN: Interface GigabitEthernet0/23, changed state to up
+Jun 20 09:54:04.765: %IFDAMP-5-UPDOWN: interface GigabitEthernet0/23 update CLNS Routing state to UP, interface is not suppressed
+Jun 20 09:54:04.769: %IFDAMP-5-UPDOWN: interface GigabitEthernet0/23 update IP Routing state to UP, interface is not suppressed
+Jun 20 09:54:05.765: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/23, changed state to up
+Jun 20 09:54:07.241: %LINK-3-UPDOWN: Interface GigabitEthernet0/23, changed state to down
+Jun 20 09:54:07.241: %IFDAMP-5-UPDOWN: interface GigabitEthernet0/23 update CLNS Routing state to DOWN, interface is not suppressed
+Jun 20 09:54:07.245: %IFDAMP-5-UPDOWN: interface GigabitEthernet0/23 update IP Routing state to DOWN, interface is not suppressed
+Jun 20 09:54:08.237: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/23, changed state to down
+Jun 20 09:54:09.685: %LINK-3-UPDOWN: Interface GigabitEthernet0/23, changed state to up
+Jun 20 09:54:09.685: %IFDAMP-5-UPDOWN: interface GigabitEthernet0/23 update CLNS Routing state to UP, interface is not suppressed
+Jun 20 09:54:09.689: %IFDAMP-5-UPDOWN: interface GigabitEthernet0/23 update IP Routing state to UP, interface is not suppressed
+Jun 20 09:54:10.685: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/23, changed state to up
+Jun 20 09:54:13.961: %LINK-3-UPDOWN: Interface GigabitEthernet0/23, changed state to down
+Jun 20 09:54:13.961: %IFDAMP-5-UPDOWN: interface GigabitEthernet0/23 update CLNS Routing state to DOWN, interface is not suppressed
+Jun 20 09:54:13.965: %IFDAMP-5-UPDOWN: interface GigabitEthernet0/23 update IP Routing state to DOWN, interface is not suppressed
+Jun 20 09:54:14.957: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/23, changed state to down
+Jun 20 09:54:16.365: %LINK-3-UPDOWN: Interface GigabitEthernet0/23, changed state to up
+Jun 20 09:54:16.365: %IFDAMP-5-UPDOWN: interface GigabitEthernet0/23 update CLNS Routing state to UP, interface is not suppressed
+Jun 20 09:54:16.369: %IFDAMP-5-UPDOWN: interface GigabitEthernet0/23 update IP Routing state to UP, interface is not suppressed
+Jun 20 09:54:17.365: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/23, changed state to up
+Jun 20 09:54:17.641: %LINK-3-UPDOWN: Interface GigabitEthernet0/23, changed state to down
+Jun 20 09:54:17.641: %IFDAMP-5-UPDOWN: interface GigabitEthernet0/23 update CLNS Routing state to DOWN, interface is suppressed
+Jun 20 09:54:17.645: %IFDAMP-5-UPDOWN: interface GigabitEthernet0/23 update IP Routing state to DOWN, interface is suppressed
+Jun 20 09:54:18.637: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/23, changed state to down
